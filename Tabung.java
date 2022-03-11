@@ -31,7 +31,7 @@ this.height = Height;
 
     @Override
     public double volume() {
-        return phi * super.getR() * super.getR() * height;
+        return super.wide() * height;
     }
 
 }
