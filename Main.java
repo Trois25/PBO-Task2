@@ -59,6 +59,6 @@ public class Main {
                 System.out.print("Ulangi? (Ya: 1 || Tidak: 0)");
                 back = input.nextInt();
         } 
-        }while(back == 1);
+        }while(back == 1 && choose !=0);
     }
 }
